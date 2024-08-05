@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <!-- Heading Name -->
+    <div class="heading">
+        <h1>Image Gallery</h1>
+    </div>
+
+    <!-- Image Gallery section all images in one div -->
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/free-photo/mythical-dragon-beast-anime-style_23-2151112842.jpg?size=626&ext=jpg" onclick="openModal('https://img.freepik.com/free-photo/mythical-dragon-beast-anime-style_23-2151112842.jpg?size=626&ext=jpg')" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/premium-vector/face-ninja-evil_961307-2052.jpg?size=626&ext=jpg" onclick="openModal('https://img.freepik.com/premium-vector/face-ninja-evil_961307-2052.jpg?size=626&ext=jpg')" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/premium-photo/there-is-raccoon-standing-rock-city-generative-ai_1034036-78805.jpg?size=626&ext=jpg" onclick="openModal('https://img.freepik.com/premium-photo/there-is-raccoon-standing-rock-city-generative-ai_1034036-78805.jpg?size=626&ext=jpg')" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/premium-vector/anime-jujutsu-kaisen-half-monster-vector-illustration_969863-14638.jpg?size=626&ext=jpg&ga=GA1.2.1352266521.1721364540&semt=sph" onclick="openModal('https://img.freepik.com/premium-vector/anime-jujutsu-kaisen-half-monster-vector-illustration_969863-14638.jpg?size=626&ext=jpg&ga=GA1.2.1352266521.1721364540&semt=sph')" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/free-photo/anime-style-character-space_23-2151134323.jpg" onclick="openModal('https://img.freepik.com/free-photo/anime-style-character-space_23-2151134323.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/premium-photo/cute-anime-boy-with-dark-green-eyes_675932-361.jpg?size=626&ext=jpg&ga=GA1.2.1352266521.1721364540&semt=sph" onclick="openModal('https://img.freepik.com/premium-photo/cute-anime-boy-with-dark-green-eyes_675932-361.jpg?size=626&ext=jpg&ga=GA1.2.1352266521.1721364540&semt=sph')" alt="Image 6">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.gstatic.com/webp/gallery/5.webp" onclick="openModal('https://www.gstatic.com/webp/gallery/5.webp')" alt="Image 7">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.gstatic.com/webp/gallery/1.webp" onclick="openModal('https://www.gstatic.com/webp/gallery/1.webp')" alt="Image 8">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

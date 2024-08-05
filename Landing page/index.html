@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">This is an example of landing page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>fullstackdeveloper</h1>
+            <button>
+                <a href="https://github.com/AkashTolange">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="https://www.boardinfinity.com/blog/content/images/2023/01/Mern.png"  width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>MERN STACK COURSES</span>
+            </div>
+            <div class="boxes">
+            <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            MongoDB
+                        </a>
+                    </div>
+                    <p>
+                        MongoDB is a NoSQL database that uses a flexible, document-oriented data model. Unlike traditional relational databases, MongoDB stores data in JSON-like documents (BSON format) which allows for dynamic schema changes.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Express.js
+                        </a>
+                    </div>
+                    <p>
+                        Express.js is a web application framework for Node.js that simplifies the process of building robust and scalable web applications .
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            React.js
+                        </a>
+                    </div>
+                    <p>
+                        React.js is a front-end JavaScript library developed by Facebook for building user interfaces. It allows developers to create reusable UI components and manage the state of an application efficiently using a virtual DOM.
+                    </p>
+                </div>
+
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Node.js
+                        </a>
+                    </div>
+                    <p>
+                        Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to execute JavaScript code on the server side and is known for its non-blocking, event-driven architecture, which is well-suited for building scalable network applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            A-143, 9th Floor, Sovereign Corporate Tower, Sector-136,
+                            Lalitpur, Province No. 3,
+                            Nepal - 44700
+
+
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                        Greetings to all the MERN Stack Developers out there!
+                        We welcome you to the platform where we consistently strive to offer the best of education. This platform has been designed for every MERN Stack Developer wishing to expand their knowledge, share their expertise, and seize their dream job. We have millions of articles, live as well as online courses, thousands of tutorials, and much more just for the MERN Stack Developer inside you. Thank you for choosing and supporting us!
+
+!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://github.com/AkashTolange" 
+                    target="_blank">
+                    Akash Tolange
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

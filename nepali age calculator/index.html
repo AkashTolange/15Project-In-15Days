@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Age Calculator (BS)</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/nepali-date-converter@2.1.0/dist/nepali-date-converter.umd.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <h1>AGE CALCULATOR (BS)</h1>
+        </header>
+
+        <div>
+            <label>Enter your Date of Birth (BS)</label><br>
+            <input id="inputDobBs" type="text" placeholder="2077-01-01" />
+        </div>
+        <br />
+
+        <div>
+            <label>Current Date (BS)</label><br>
+            <input id="cdateBs" type="text" />
+        </div>
+        <br />
+
+        <button type="button" onclick="calculateAgeBs()">
+            Calculate
+        </button>
+        <br />
+        <div id="currentAge"></div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
